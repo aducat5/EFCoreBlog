@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using EFCoreBlog.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreBlog
 {
@@ -31,8 +33,10 @@ namespace EFCoreBlog
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            var connection = @"Server=.;Database=EFCoreBlogDB;UID=sa;PWD=tamerberat";
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDbContext<EFCoreBlogDB>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

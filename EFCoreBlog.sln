@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreBlog", "EFCoreBlog\EFCoreBlog.csproj", "{F55BBB08-2DFD-41F7-99F4-C246F0BCC6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreBlog", "EFCoreBlog\EFCoreBlog.csproj", "{F55BBB08-2DFD-41F7-99F4-C246F0BCC6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreBlog.BLL", "EFCoreBlog.BLL\EFCoreBlog.BLL.csproj", "{708CCECC-2FE9-45B2-B773-ECC0FC855BC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F55BBB08-2DFD-41F7-99F4-C246F0BCC6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55BBB08-2DFD-41F7-99F4-C246F0BCC6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55BBB08-2DFD-41F7-99F4-C246F0BCC6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708CCECC-2FE9-45B2-B773-ECC0FC855BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708CCECC-2FE9-45B2-B773-ECC0FC855BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708CCECC-2FE9-45B2-B773-ECC0FC855BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708CCECC-2FE9-45B2-B773-ECC0FC855BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
